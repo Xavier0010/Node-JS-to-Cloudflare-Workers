@@ -10,7 +10,14 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"d1_databases": [
+  	  {
+  	    "binding": "DB",
+  	    "database_name": "paas-students-db",
+  	    "database_id": "1a9e26ba-3b49-4421-871c-283fba099a06"
+  	  }
+  	]
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
